@@ -2,5 +2,31 @@
 *{
     padding: 0px;
     font-family: Poppins, sans-serif;
-    background-image: url("Images/background.jpg");
+    text-decoration: none;
+    background-image: url("/Project1/Images/bg12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    margin-top: 60px;
+    font-size: medium;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 10px;
+    border: 4px solid rgba(68, 68, 68, 0.154);
+    padding: 10px;
+    font-size: 22px;
+    background-color: #395B64;
 }
