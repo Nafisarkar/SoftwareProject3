@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+@font-face {
+    font-family: "SourceCodePro";
+    src: url("/SoftwareProject3/Project1/Fonts/source-code-pro/SourceCodePro-Semibold.otf")
+}
+@font-face {
+    font-family: "CascadiaCode";
+    src: url("/SoftwareProject3/Project1/Fonts/cascadia-code/Cascadia.ttf")
+}
+@font-face {
+    font-family: "JetbriansMono";
+    src: url("/SoftwareProject3/Project1/Fonts/JetBrainsMono-2.242/fonts/webfonts/JetBrainsMono-Regular.woff2")
+}
+@font-face {
+    font-family: "NotoMono";
+    src: url("/SoftwareProject3/Project1/Fonts/noto-mono/NotoMono-Regular.ttf")
+}
 *{
     padding: 0px;
-    font-family: Poppins, sans-serif;
+    font-family: JetbriansMono,Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
     text-decoration: none;
     background-image: url("/SoftwareProject3/Project1/Images/bg3-crop.jpg");
     background-size: cover;
@@ -86,4 +104,15 @@ table{
     color: #000000;
     margin-left: -12px;
     padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #ee6c20;
+}
+a:hover{
+
+    text-decoration: underline;
+    color: #296af7;
+    cursor: pointer;
+    font-family: CascadiaCode;
 }
