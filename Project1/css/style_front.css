@@ -2,7 +2,7 @@
 
 * {
     font-family: Poppins, sans-serif;
-    background-image: url("/Project1/Images/background.jpg");
+    background-image: url("/SoftwareProject3/Project1/Images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,7 +31,6 @@
     border: 4px solid hsla(0, 0%, 18%, 0.216);
     border-radius: 5%;
     margin-bottom: 10px;
-    border: 4px solid hsla(0, 0%, 18%, 0.069);
 }
 
 
