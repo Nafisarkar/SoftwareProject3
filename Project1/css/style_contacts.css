@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
-@font-face {
+
+/* uncomment if using windows */
+/* @font-face {
     font-family: "SourceCodePro";
     src: url("/SoftwareProject3/Project1/Fonts/source-code-pro/SourceCodePro-Semibold.otf")
 }
@@ -14,24 +16,50 @@
 @font-face {
     font-family: "NotoMono";
     src: url("/SoftwareProject3/Project1/Fonts/noto-mono/NotoMono-Regular.ttf")
+} */
+/* uncomment if using linux */
+@font-face {
+    font-family: "SourceCodePro";
+    src: url("/Project1/Fonts/source-code-pro/SourceCodePro-Semibold.otf")
 }
-*{
+
+@font-face {
+    font-family: "CascadiaCode";
+    src: url("/Project1/Fonts/cascadia-code/Cascadia.ttf")
+}
+
+@font-face {
+    font-family: "JetbriansMono";
+    src: url("/Project1/Fonts/JetBrainsMono-2.242/fonts/webfonts/JetBrainsMono-Regular.woff2")
+}
+
+@font-face {
+    font-family: "NotoMono";
+    src: url("/Project1/Fonts/noto-mono/NotoMono-Regular.ttf")
+}
+
+* {
     padding: 0px;
-    font-family: JetbriansMono,Poppins, sans-serif;
+    font-family: JetbriansMono, Poppins, sans-serif;
     font-weight: 500;
     font-size: 1em;
     text-decoration: none;
-    background-image: url("/SoftwareProject3/Project1/Images/bg3-crop.jpg");
+    /* uncomment if using windows */
+    /* background-image: url("/SoftwareProject3/Project1/Images/bg3-crop.jpg"); */
+    /* uncomment if using linux */
+    background-image: url("/Project1/Images/bg3-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-body{
+
+body {
     margin-top: 10px;
     font-size: medium;
     padding: 10px;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -39,14 +67,16 @@ body{
     justify-content: center;
     align-items: center;
 }
-p{
+
+p {
     margin: 10px;
     border: 2px solid hsla(0, 0%, 18%, 0.216);
     padding: 10px;
     font-size: 22px;
     background-color: #395B64;
 }
-.listbox{
+
+.listbox {
     margin: 10px;
     padding: 8px;
     width: 100%/2;
@@ -58,7 +88,8 @@ p{
     background-color: aqua;
     border: 2px solid hsla(0, 0%, 18%, 0.216);
 }
-.skills{
+
+.skills {
     margin: 10px;
     padding: 10px;
     width: 50%;
@@ -68,7 +99,8 @@ p{
     justify-content: left;
     align-items: center;
 }
-.education_table{
+
+.education_table {
     margin: 10px;
     padding: 10px;
     width: 50%;
@@ -81,15 +113,18 @@ p{
 
 }
 
-th, td {
+th,
+td {
     border: 2px solid hsla(0, 0%, 18%, 0.216);
     width: 400PX;
 }
-table{
+
+table {
     height: 150px;
     text-align: center;
 }
-.experience{
+
+.experience {
     margin-left: 16px;
     padding: 10px;
     width: 90%;
@@ -99,17 +134,20 @@ table{
     justify-content: left;
     align-items: center;
 }
-.experience_title{
+
+.experience_title {
     font: bold 20px/30px Georgia, serif;
     color: #000000;
     margin-left: -12px;
     padding: 0px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #ee6c20;
 }
-a:hover{
+
+a:hover {
 
     text-decoration: underline;
     color: #296af7;
