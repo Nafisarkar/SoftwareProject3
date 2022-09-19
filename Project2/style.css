@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "JetbriansMono";
+    src: url("./Fonts/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf");
+}
+
+* {
+    font-family: 'JetbriansMono', 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    cursor: pointer;
+    color: #00E676;
+    transition: 200ms;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color: #263238;
+    color: aliceblue;
+    border-bottom: #00E676 2px solid;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.wall {
+    height: 510px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Backgrounds/RetroPersonalComputer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: aliceblue;
+}
+
+.content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    backdrop-filter: blur(7px);
+
+}
+
+.content h1 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login {
+    background-color: #263238;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+    border-top: #00E676 solid 2px;
+}
+
+.loginform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginform input {
+    padding: 5px;
+    margin: 5px;
+    outline-style: none;
+    background-color: #263238;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid #00E676;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.loginform input:focus {
+    background-color: #161d20;
+    color: #d9dbdb;
+}
+
+.loginform button {
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginform button {
+    color: #263238;
+    border: none;
+    border-radius: 0px;
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #00E676;
+}
+
+.loginform button:hover {
+    cursor: pointer;
+    background-color: #010302;
+    color: #d9dbdb;
+    transition: 200ms;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #263238;
+}
+
+.proBox {
+    background-color: #263238;
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-radius: 0px;
+    border-bottom: #00E676 1px solid;
+}
+
+.proBox:hover {
+    color: #00E676;
+    border-bottom: #d9dbdb 1px solid;
+    backdrop-filter: blur(4px);
+    transition: 400ms;
+    transform: translateY(5px)
+}
+
+.proBox img {
+    width: 200px;
+    height: 220px;
+    padding: 10px;
+    object-fit: container;
+    border-radius: 10px;
+}
+
+.proBox div {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+div .proname {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px;
+}
+
+div .prodit {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #00E676;
+    color: rgb(7, 7, 7);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer:hover{
+    cursor: pointer;
+    color: #00E676;
+    transition: 200ms;
+}
