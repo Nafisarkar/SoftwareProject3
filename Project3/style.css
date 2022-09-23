@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "JetbriansMono";
+    src: url("./Fonts/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf");
+}
+* {
+    font-family: 'JetbriansMono','Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hoverb {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orangered;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.leftpart{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.righticon{
+    min-width: fit-content;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feed_box{
+    overflow: hidden;
+    background-color: rgb(180, 179, 179);
+    height: 92vh;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px 3px px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.fot{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: orangered;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+.righticon div:hover{
+    transform: translateY(1px);
+    color: aliceblue;
+    transition: 400ms;
+    text-decoration: none;
+}
+
+.Newsbox{
+    display: flex;
+    padding-top: 5px;
+}
+.icon{
+    margin-right: 10px;
+    margin-left: 4px;
+    margin-top:  10px; ;
+}
+
+.title{
+    color: rgba(255, 68, 0, 0.801);
+    margin-top: 3px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.discrip{
+    color: rgba(0, 0, 0, 0.651);
+    font-weight: 400;
+    font-size: 12px;
+}
+.reaction{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.react{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.icontext{
+    padding-left: 10px;
+}

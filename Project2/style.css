@@ -211,7 +211,8 @@ div .prodit {
     justify-content: center;
     align-items: center;
 }
-.offer:hover{
+
+.offer:hover {
     cursor: pointer;
     color: #00E676;
     transition: 200ms;
